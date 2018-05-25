@@ -1,12 +1,12 @@
 import Speech
 
-@objc public protocol EasyToSpeechDelegate: class {
+@objc public protocol HSSpeechDelegate: class {
 	@objc optional func speechToTextDidComplete(text: String)
 	func recognizerDidStop(continuous: Bool)
 }
 
 @available(iOS 10.0, *)
-public class EasyToSpeech {
+public class HSSpeech {
 	private let audioEngine: AVAudioEngine = AVAudioEngine()
 	private var speechRecognizer: SFSpeechRecognizer?
 	private var bufferRequest: SFSpeechAudioBufferRecognitionRequest?
@@ -21,7 +21,7 @@ public class EasyToSpeech {
 		}
 	}
 	public var isGranted: Bool = false
-	public var delegate: EasyToSpeechDelegate?
+	public var delegate: HSSpeechDelegate?
 	private var finishMessage: String!
 	
 	public init() {
