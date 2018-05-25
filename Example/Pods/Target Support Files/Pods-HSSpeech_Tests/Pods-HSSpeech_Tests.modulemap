@@ -1,0 +1,6 @@
+framework module Pods_HSSpeech_Tests {
+  umbrella header "Pods-HSSpeech_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - HSSpeech (0.1.0)
+
+DEPENDENCIES:
+  - HSSpeech (from `../`)
+
+EXTERNAL SOURCES:
+  HSSpeech:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSSpeech: 0c77dfe75ef3fc4f1f2156956da86659b9414854
+
+PODFILE CHECKSUM: c7b0206124c081dd331c27b6d085e8024d0f8b65
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,6 @@
+framework module HSSpeech {
+  umbrella header "HSSpeech-umbrella.h"
+
+  export *
+  module * { export * }
+}

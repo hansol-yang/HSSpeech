@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		0F79312614EF048E4C415A33 /* Pods_HSSpeech_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSSpeech_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F167A0113854B5FEB7369D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3F167A0113854B5FEB7369D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* HSSpeech_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSSpeech_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F297A0BE0A6316D423E7032 /* HSSpeech.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HSSpeech.podspec; path = ../HSSpeech.podspec; sourceTree = "<group>"; };
+		7F297A0BE0A6316D423E7032 /* HSSpeech.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HSSpeech.podspec; path = ../HSSpeech.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84CD189253306D4240C88A48 /* Pods-HSSpeech_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSSpeech_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSSpeech_Tests/Pods-HSSpeech_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		86721B1225328837357E53AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		86721B1225328837357E53AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D8AFEB40E65BC3E611FD2A91 /* Pods-HSSpeech_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSSpeech_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSSpeech_Tests/Pods-HSSpeech_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
